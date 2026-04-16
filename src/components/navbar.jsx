@@ -8,7 +8,7 @@ function Navbar() {
         
         
         <div className="nav-logo">
-          <img src="/Construction Website/buildhood.png" alt="Buildhood Logo" />
+          <img src="/Construction-Website/buildhood.png" alt="Buildhood Logo" />
           
         </div>
 

@@ -5,37 +5,37 @@ const servicesData = [
   {
     id: 1,
     title: 'Residential Construction',
-    img: '/Construction Website/residential.png',
+    img: '/Construction-Website/residential.png',
     desc: 'Turnkey home builds with quality materials and timely delivery.'
   },
   {
     id: 2,
     title: 'Commercial Construction', 
-    img: '/Construction Website/commercial.png',
+    img: '/Construction-Website/commercial.png',
     desc: 'Robust and scalable spaces designed for business growth.'
   },
   {
     id: 3,
     title: 'Maintenance Services',
-    img: '/Construction Website/maintenance.png',
+    img: '/Construction-Website/maintenance.png',
     desc: 'Complete repair and upkeep solutions for your property.'
   },
   {
     id: 4,
     title: 'Interior Planning & Designing',
-    img: '/Construction Website/interior.png',
+    img: '/Construction-Website/interior.png',
     desc: 'Interior solutions that bring elegance to your lifestyle.'
   },
   {
     id: 5,
     title: 'Renovation & Remodeling',
-    img: '/Construction Website/renovation.png',
+    img: '/Construction-Website/renovation.png',
     desc: 'Upgrade and modernize existing structures with functional designs.'
   },
   {
     id: 6,
     title: 'Architectural Plans',
-    img: '/Construction Website/architectural.png',
+    img: '/Construction-Website/architectural.png',
     desc: 'Detailed custom blueprints and approvals for every concept.'
   }
 ];
