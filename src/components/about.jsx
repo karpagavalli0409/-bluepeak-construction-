@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css';
+import './about.css';
 import { FaUsers, FaTasks, FaSmile, FaHeadset, FaBullseye, FaEye, FaShieldAlt, FaStar, FaHandshake, FaUserTie } from 'react-icons/fa';
 
 const stats = [

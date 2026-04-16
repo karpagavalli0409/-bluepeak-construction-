@@ -1,5 +1,5 @@
 import React from 'react';
-import './VRSection.css';
+import './vrsection.css';
 import { FaCheckCircle } from 'react-icons/fa';
 
 function VRSection() {

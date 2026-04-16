@@ -1,5 +1,5 @@
 import React from 'react';
-import './WhyChooseUs.css';
+import './whychooseus.css';
 import { FaHardHat, FaShieldAlt, FaClock, FaHeadset } from 'react-icons/fa';
 
 const reasons = [
