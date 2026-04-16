@@ -26,7 +26,7 @@ function VRSection() {
 
           <div className="vr-right">
             <div className="vr-card">
-              <img src="/Construction Website/building-3d.png" alt="3D Building Model" />
+              <img src="/construction-website/building-3d.png" alt="3D Building Model" />
               <div className="vr-badge badge-top">Active Projects<br/><span>1,247</span></div>
               <div className="vr-badge badge-bottom">Success Rate<br/><span>98%</span></div>
             </div>

@@ -17,10 +17,10 @@ const coreValues = [
 ];
 
 const team = [
-  { img: '/Construction-Website/team1.png', name: 'Robert Anderson', role: 'Chief Executive Officer' },
-  { img: '/Construction-Website/team2.png', name: 'Jennifer Martinez', role: 'Head of Design' },
-  { img: '/Construction-Website/team3.png', name: 'Michael Thompson', role: 'Project Manager' },
-  { img: '/Construction-Website/team4.png', name: 'Sarah Williams', role: 'Head of Design' },
+  { img: '/construction-website/team1.png', name: 'Robert Anderson', role: 'Chief Executive Officer' },
+  { img: '/construction-website/team2.png', name: 'Jennifer Martinez', role: 'Head of Design' },
+  { img: '/construction-website/team3.png', name: 'Michael Thompson', role: 'Project Manager' },
+  { img: '/construction-website/team4.png', name: 'Sarah Williams', role: 'Head of Design' },
 ];
 
 function About() {
