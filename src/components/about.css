@@ -1,0 +1,110 @@
+.about-page { 
+  padding: 80px 0 0 0;
+  background: #fff; 
+}
+
+.about-container { 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 0 50px 80px; 
+}
+
+/* 1. Services mathiri same heading style */
+.about-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 15px;
+}
+
+.about-subtitle {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 50px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #666;
+}
+
+/* 2. Stats - ippo margin top illa */
+.stats-container {
+  max-width: 1200px; 
+  margin: 0 auto 80px; 
+  padding: 0;
+  display: grid; 
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px;
+}
+.stat-card {
+  background: white; 
+  padding: 25px; 
+  border-radius: 12px; 
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  border: 1px solid #eee;
+}
+.stat-icon { font-size: 32px; color: #FF5A3C; margin-bottom: 10px; }
+.stat-card h3 { font-size: 28px; font-weight: 700; color: #222; }
+.stat-card p { font-size: 14px; color: #666; }
+
+/* 3. Our Story */
+.story-section { display: flex; align-items: center; gap: 50px; margin-bottom: 80px; }
+.story-text { flex: 1; }
+.story-text h3 { font-size: 32px; font-weight: 700; margin-bottom: 20px; }
+.story-text p { font-size: 15px; line-height: 1.8; color: #555; }
+.story-images { flex: 1; position: relative; }
+.story-images img { border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+.story-img1 { width: 80%; }
+.story-img2 { width: 60%; position: absolute; bottom: -40px; right: 0; border: 8px solid white; }
+
+/* 4. Mission & Vision */
+.mv-section { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-bottom: 80px; }
+.mv-card { padding: 40px; border-radius: 12px; color: white; }
+.mv-card svg { font-size: 36px; margin-bottom: 15px; }
+.mv-card h4 { font-size: 24px; font-weight: 700; margin-bottom: 15px; }
+.mv-card p { font-size: 15px; line-height: 1.7; opacity: 0.9; }
+.mission { background: #1E293B; }
+.vision { background: #FFB800; color: #1E293B; }
+
+/* 5. Core Values */
+.values-section { text-align: center; margin-bottom: 80px; }
+.values-section h3 { font-size: 32px; font-weight: 700; margin-bottom: 40px; }
+.values-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; }
+.value-card { background: #f8f9fa; padding: 30px; border-radius: 12px; }
+.value-icon { font-size: 32px; color: #FF5A3C; margin-bottom: 15px; }
+.value-card h4 { font-size: 18px; font-weight: 600; margin-bottom: 10px; }
+.value-card p { font-size: 14px; color: #666; line-height: 1.6; }
+
+/* 6. Team */
+.team-section { text-align: center; }
+.team-section h3 { font-size: 32px; font-weight: 700; margin-bottom: 10px; }
+.team-section > p { font-size: 16px; color: #666; margin-bottom: 40px; }
+.team-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; }
+.team-card img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 15px; }
+.team-card h4 { font-size: 18px; font-weight: 600; }
+.team-card p { font-size: 14px; color: #FF5A3C; }
+
+/* 7. CTA */
+.about-cta {
+  background: linear-gradient(rgba(10,25,47,0.8), rgba(10,25,47,0.8)), url('/Construction Website/hero-bg.png') no-repeat center center/cover;
+  padding: 80px 20px; text-align: center; color: white;
+}
+.about-cta h2 { font-size: 36px; font-weight: 700; margin-bottom: 15px; }
+.about-cta p { font-size: 16px; margin-bottom: 30px; opacity: 0.9; }
+.about-cta button {
+  background: #FFB800; color: #000; padding: 14px 32px; border: none;
+  border-radius: 25px; font-size: 16px; font-weight: 600; cursor: pointer; margin-bottom: 20px;
+}
+.cta-badges { display: flex; justify-content: center; gap: 20px; font-size: 14px; opacity: 0.8; }
+
+/* Responsive */
+@media (max-width: 992px) {
+  .stats-container, .values-grid, .team-grid { grid-template-columns: repeat(2, 1fr); }
+  .story-section, .mv-section { flex-direction: column; grid-template-columns: 1fr; }
+  .story-img2 { position: static; width: 100%; margin-top: 20px; border: none; }
+}
+@media (max-width: 600px) {
+  .stats-container, .values-grid, .team-grid { grid-template-columns: 1fr; }
+  .about-container { padding: 0 20px 60px; }
+}
