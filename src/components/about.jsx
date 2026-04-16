@@ -51,8 +51,8 @@ function About() {
             <p>What began as a small team of dedicated engineers and designers has grown into a trusted partner for residential and commercial projects, delivering structured planning, transparent pricing, and strict quality control at every stage. Over the years, we have successfully completed hundreds of projects, introduced advanced 3D design and VR walkthrough experiences, and built long-lasting relationships based on trust and performance.</p>
           </div>
           <div className="story-images">
-            <img src="/Construction Website/about-story1.png" alt="Our team" className="story-img1"/>
-            <img src="/Construction Website/about-story2.png" alt="Client meeting" className="story-img2"/>
+            <img src="/construction-website/about-story1.png" alt="Our team" className="story-img1"/>
+            <img src="/construction-website/about-story2.png" alt="Client meeting" className="story-img2"/>
           </div>
         </div>
 
