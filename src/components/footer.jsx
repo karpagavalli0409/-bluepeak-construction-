@@ -1,13 +1,14 @@
 import React from 'react';
 import './footer.css';
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
+import logo from '../assets/buildhood.png'
 
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-col">
-          <img src="/construction-website/buildhood.png" alt="BluePeak" className="footer-logo" />
+          <img src={logo} alt="BluePeak" className="footer-logo" />
           <p>Premium construction materials with guaranteed quality, price protection, and 24/7 support for your projects.</p>
         </div>
 

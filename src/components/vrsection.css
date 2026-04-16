@@ -1,5 +1,8 @@
 .vr-section {
-  background: url('/Construction Website/hero-bg.png') no-repeat center center/cover;
+  /* background: url(...); ← Idha line ah thookiru */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   position: relative;
   padding: 100px 0;
   color: white;

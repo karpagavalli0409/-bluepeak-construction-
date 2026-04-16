@@ -1,48 +1,54 @@
 import React, { useState } from 'react';
 import './projects.css';
 import { FaArrowRight } from 'react-icons/fa';
+import pro1 from '../assets/pro1.png';
+import pro2 from '../assets/pro2.png';
+import pro3 from '../assets/pro3.png';
+import pro4 from '../assets/pro4.png';
+import pro5 from '../assets/pro5.png';
+import pro6 from '../assets/pro6.png';
 
 const projectsData = [
   {
     id: 1,
     title: 'Lakeview Villa - Chennai',
     location: 'Chennai | 3,200 Sq.ft',
-    img: '/construction-website/project7.png',
+    img: pro1,
     category: 'Residential'
   },
   {
     id: 2,
     title: 'Metro Business Hub - Bangalore',
     location: 'Bangalore | 12,000 Sq.ft',
-    img: '/construction-website/project2.png',
+    img: pro2,
     category: 'Commercial'
   },
   {
     id: 3,
     title: 'Green Meadows Residence',
     location: 'Coimbatore | 2,400 Sq.ft',
-    img: '/construction-website/project3.png',
+    img: pro3,
     category: 'Residential'
   },
   {
     id: 4,
     title: 'Skyline Retail Plaza',
     location: 'Hyderabad | 8,500 Sq.ft',
-    img: '/construction-website/project4.png',
+    img: pro4,
     category: 'Commercial'
   },
   {
     id: 5,
     title: 'Heritage Home Renovation',
     location: 'Chennai | 1,800 Sq.ft',
-    img: '/construction-website/project5.png',
+    img: pro5,
     category: 'Renovation'
   },
   {
     id: 6,
     title: 'Palm Grove Apartments',
     location: 'Trichy | 15,000 Sq.ft',
-    img: '/construction-website/project6.png',
+    img: pro6,
     category: 'Residential'
   }
 ];

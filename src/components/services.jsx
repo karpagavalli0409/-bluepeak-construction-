@@ -1,41 +1,47 @@
 import React from 'react';
 import './services.css';
+import residentialImg from '../assets/residential.png';
+import commercialImg from '../assets/commercial.png';
+import maintenanceImg from '../assets/maintenance.png';
+import interiorImg from '../assets/interior.png';
+import renovationImg from '../assets/renovation.png';
+import architecturalImg from '../assets/architectural.png';
 
 const servicesData = [
   {
     id: 1,
     title: 'Residential Construction',
-    img: '/construction-website/residential.png',
+    img: residentialImg,
     desc: 'Turnkey home builds with quality materials and timely delivery.'
   },
   {
     id: 2,
     title: 'Commercial Construction', 
-    img: '/construction-website/commercial.png',
+    img: commercialImg,
     desc: 'Robust and scalable spaces designed for business growth.'
   },
   {
     id: 3,
     title: 'Maintenance Services',
-    img: '/construction-website/maintenance.png',
+    img: maintenanceImg,
     desc: 'Complete repair and upkeep solutions for your property.'
   },
   {
     id: 4,
     title: 'Interior Planning & Designing',
-    img: '/construction-website/interior.png',
+    img: interiorImg,
     desc: 'Interior solutions that bring elegance to your lifestyle.'
   },
   {
     id: 5,
     title: 'Renovation & Remodeling',
-    img: '/construction-website/renovation.png',
+    img: renovationImg,
     desc: 'Upgrade and modernize existing structures with functional designs.'
   },
   {
     id: 6,
     title: 'Architectural Plans',
-    img: '/construction-website/architectural.png',
+    img: architecturalImg,
     desc: 'Detailed custom blueprints and approvals for every concept.'
   }
 ];

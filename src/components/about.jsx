@@ -1,6 +1,12 @@
 import React from 'react';
 import './about.css';
 import { FaUsers, FaTasks, FaSmile, FaHeadset, FaBullseye, FaEye, FaShieldAlt, FaStar, FaHandshake, FaUserTie } from 'react-icons/fa';
+import team1img from '../assets/team1.png';
+import team2img from '../assets/team2.png';
+import team3img from '../assets/team3.png';
+import team4img from '../assets/team4.png';
+import story1img from '../assets/about-story1.png';
+import story2img from '../assets/about-story2.png';
 
 const stats = [
   { icon: <FaUsers />, number: '500+', text: 'Happy Clients' },
@@ -17,10 +23,10 @@ const coreValues = [
 ];
 
 const team = [
-  { img: '/construction-website/team1.png', name: 'Robert Anderson', role: 'Chief Executive Officer' },
-  { img: '/construction-website/team2.png', name: 'Jennifer Martinez', role: 'Head of Design' },
-  { img: '/construction-website/team3.png', name: 'Michael Thompson', role: 'Project Manager' },
-  { img: '/construction-website/team4.png', name: 'Sarah Williams', role: 'Head of Design' },
+  { img: team1img, name: 'Robert Anderson', role: 'Chief Executive Officer' },
+  { img: team2img, name: 'Jennifer Martinez', role: 'Head of Design' },
+  { img: team3img, name: 'Michael Thompson', role: 'Project Manager' },
+  { img: team4img, name: 'Sarah Williams', role: 'Head of Design' },
 ];
 
 function About() {
@@ -51,8 +57,8 @@ function About() {
             <p>What began as a small team of dedicated engineers and designers has grown into a trusted partner for residential and commercial projects, delivering structured planning, transparent pricing, and strict quality control at every stage. Over the years, we have successfully completed hundreds of projects, introduced advanced 3D design and VR walkthrough experiences, and built long-lasting relationships based on trust and performance.</p>
           </div>
           <div className="story-images">
-            <img src="/construction-website/about-story1.png" alt="Our team" className="story-img1"/>
-            <img src="/construction-website/about-story2.png" alt="Client meeting" className="story-img2"/>
+            <img src={story1img} alt="Our team" className="story-img1"/>
+            <img src={story2img} alt="Client meeting" className="story-img2"/>
           </div>
         </div>
 

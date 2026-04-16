@@ -1,5 +1,6 @@
 import React from 'react';
 import './navbar.css';
+import logo from '../assets/buildhood.png'
 
 function Navbar() {
   return (
@@ -8,7 +9,7 @@ function Navbar() {
         
         
         <div className="nav-logo">
-          <img src="/construction-website/buildhood.png" alt="Buildhood Logo" />
+          <img src={logo} alt="Buildhood Logo" />
           
         </div>
 

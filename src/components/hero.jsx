@@ -1,9 +1,12 @@
 import React from 'react';
 import './hero.css';
+import heroBg from '../assets/hero-bg.png';
 
 function Hero() {
   return (
-    <section className="hero">
+    <section className="hero"
+    style={{ backgroundImage: `url(${heroBg})`}}
+    >
       <div className="hero-overlay"></div>
       <div className="hero-container">
         

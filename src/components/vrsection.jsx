@@ -1,10 +1,12 @@
 import React from 'react';
 import './vrsection.css';
 import { FaCheckCircle } from 'react-icons/fa';
+import building3dimg from '../assets/building-3d.png';
+import heroBg from '../assets/hero-bg.png';
 
 function VRSection() {
   return (
-    <section className="vr-section">
+    <section className="vr-section" style={{ backgroundImage: `url(${heroBg})` }}>
       <div className="vr-overlay">
         <div className="vr-container">
           
@@ -26,7 +28,7 @@ function VRSection() {
 
           <div className="vr-right">
             <div className="vr-card">
-              <img src="/construction-website/building-3d.png" alt="3D Building Model" />
+              <img src={building3dimg} alt="3D Building Model" />
               <div className="vr-badge badge-top">Active Projects<br/><span>1,247</span></div>
               <div className="vr-badge badge-bottom">Success Rate<br/><span>98%</span></div>
             </div>
